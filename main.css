@@ -1,0 +1,98 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* CSS reset END */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right bottom, #eef511 0%, #be5663 35%, #7723bd 100%) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fullpage {
+	width: 90%;
+	height: 90vh;
+	margin: 4vh auto;
+	background: white;
+}
+
+#headerpic {
+	display: flex;
+	width: 100%;
+	height: 30vh;
+}
+
+.button-nav {
+  display: inline-block;
+	white-space: nowrap;
+  font-size: 2.5vh;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: #eef511;
+  border: 2px solid #be5663;
+	margin: .9rem .9rem;
+}
+
+.button-nav:hover {
+  color: #fff;
+  background-color: #000;
+  transition: background-color .35s ease-in-out;
+}
+
+.menu {
+	display: flex;
+	width: 100%;
+	height: 4vh;
+	margin: .5rem auto;
+	justify-content: center;
+	color: rgba(111, 30, 11, 0.9);
+	margin-top: -8vh;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Indie flower";
+	font-size: 5vh;
+	margin: 5vh auto 1vh;
+}
+
+#avatar {
+	display: flex;
+	border-radius: 35%;
+	width: 30vh;
+	margin: 2vh auto;
+}
+
+#line {
+	width: 85%;
+	margin: 1vh auto;
+}
+
+footer {
+	text-align: center;
+	margin: 1vh auto;
+	height: calc( 10% - 220vh );
+}
+
+.links {
+	font-size: 5vh;
+	margin: 1vh;
+	letter-spacing: .1vw;
+}
+
+footer small {
+	font-size: 2vh;
+	margin-bottom: 10vh;
+}
+
+
+
