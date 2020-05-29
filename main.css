@@ -68,8 +68,14 @@ h1 {
 #avatar {
 	display: flex;
 	border-radius: 35%;
-	width: 30vh;
+	width: 29vh;
+	border: 5px solid rgba(111, 30, 11, 0.9);
 	margin: 2vh auto;
+}
+
+#avatar:hover {
+	transform: scale(1.05);
+	transition: transform .35s ease-in-out;
 }
 
 #line {
@@ -94,5 +100,9 @@ footer small {
 	margin-bottom: 10vh;
 }
 
+@media (min-width: 1024px) {
 
+  .fullpage {
+    width: 60%;
+  }
 
